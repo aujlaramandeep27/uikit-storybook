@@ -1,0 +1,25 @@
+{
+  "name": "uikit-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "prebuild-storybook": "ts-node bin/generate-stories.ts",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/html": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "callbag-basics": "^3.2.0"
+  }
+}
